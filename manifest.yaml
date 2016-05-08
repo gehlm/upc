@@ -6,7 +6,7 @@ info:
   title: UPC Lookup
   x-21-category: utilities
   x-21-keywords: [upc, pricing]
-  x-21-total-price: {max: 2000, min: 2000}
+  x-21-total-price: {max: 500, min: 1000}
   x-21-app-image: https://cdn.filepicker.io/api/file/L1qOBOudTWCFTvQXcM8S
   x-21-usage: 'Get product description, images and pricing information for a given Universal Product Code (UPC).'
   x-21-quick-buy: "Get product description and pricing given a Universal Product Code (UPC):\n

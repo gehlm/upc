@@ -46,7 +46,7 @@ def client():
 
 
 @app.route('/lookup')
-@payment.required(2000)
+@payment.required(1000)
 def upc_lookup():
 	"""Charge a fixed fee per request to the UPC endpoint.
 	"""
