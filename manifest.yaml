@@ -1,5 +1,5 @@
 basePath: /upc
-host: 10.244.69.94:5051
+host: 10.244.250.224:5051
 info:
   contact: {email: mg@example.com, name: MG}
   description: Get product description and pricing
@@ -10,9 +10,9 @@ info:
   x-21-app-image: https://cdn.filepicker.io/api/file/L1qOBOudTWCFTvQXcM8S
   x-21-usage: 'Get product description, images and pricing information for a given Universal Product Code (UPC).'
   x-21-quick-buy: "Get product description and pricing by Universal Product Code (UPC):\n
-  $21 buy \"http://10.244.69.94:5051/lookup?upc=078000147162\"\n\n
+  $21 buy \"http://10.244.250.224:5051/lookup?upc=078000147162\"\n\n
   Or download and run the upc client:\n
-  $ wget -O upc.py http://10.244.69.94:5051/upc/client\n
+  $ wget -O upc.py http://10.244.250.224:5051/upc/client\n
   $ python3 upc.py 078000147162"
 
 paths:

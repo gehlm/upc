@@ -8,7 +8,7 @@ from two1.commands.config import Config
 from two1.wallet import Wallet
 from two1.bitrequests import BitTransferRequests
 
-SERVER_IP_ADDRESS='10.244.69.94'
+SERVER_IP_ADDRESS='10.244.250.224'
 SERVER_PORT = '5051'
 
 # Configure your Bitcoin Wallet
