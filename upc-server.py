@@ -38,7 +38,7 @@ def manifest():
 	return json.dumps(manifest)
 
 
-@app.route('/upc/client')
+@app.route('/client')
 def client():
 	"""Provide an example client script.
 	"""
